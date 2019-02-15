@@ -22,10 +22,11 @@ public class UserResource {
 		User edu = new User("1", "Paulo Eduardo", "edu_bola@gmail.com");
 		User evonira = new User("1", "Evonira Santos", "evosimoes@gmail.com");
 		User brenno = new User("1", "Brenno Santos", "brennosantos@gmail.com");
+		User yeslim = new User("1", "Yeslim Santos", "yeslim@gmail.com");
 		
 		List<User> list = new ArrayList<>();
 		
-		list.addAll(Arrays.asList(paulo, ricardo, edu, evonira, brenno));
+		list.addAll(Arrays.asList(paulo, ricardo, edu, evonira, brenno, yeslim));
 		return ResponseEntity.ok().body(list);		
 	}
 
